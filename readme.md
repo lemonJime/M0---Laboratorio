@@ -19,4 +19,15 @@ Este repositorio documenta los pasos básicos para trabajar con Git y GitHub, in
    ```git branch development```
    ```git checkout development```
 
+5. Hacer cambios en la rama `development`, añadirlos, y realizar un commit:
+   ```git commit -am "Cambios en development"```
+   ```git push -u origin development```
+
+6. Volver a la rama `master` y hacer el merge de `development` a `master`:
+   ```git checkout master```
+   ```git merge development```
+
+7. Subir los cambios finales al repositorio remoto:
+   ```git push origin master```
+
 
